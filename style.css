@@ -1,0 +1,306 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Comfortaa';
+    }
+    .headsection {
+        position: sticky;
+        
+        
+    }
+    .header-top .header-top-right .header-contact-container .store-location , .call-center h4{
+        font-size: 15px;
+        font-family: inherit;
+    }
+    .header-top{
+        width: 100%;
+        display: flex; 
+    }
+    .header-top i{
+        padding-right: 7px;
+        font-size: 25px;
+    }
+    .header-top .header-top-left{
+        width: 50%; 
+        background-color: #ff5874;
+    }
+    .header-top .header-top-left h4{
+        color:#fff;
+        padding: 8px 0px 8px 58px;
+    }
+    .header-top .header-top-right{
+        width: 50%;
+        display: flex;
+        background-color: white;
+    }
+    .header-top .header-top-right .header-contact-container{
+
+        display: flex;
+        width: 100%;
+    }
+    .header-top .header-top-right .header-contact-container .store-location , .call-center{
+        display: flex;    
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .header-top .header-top-right .header-contact-container .store-location h4 , .call-center h4 {
+       font-weight: 100;
+
+    }
+    .header-search{
+        background-color: #063f51;
+ 
+        display: flex;
+        padding: 24px 61px 24px 51px;
+        
+    }
+    /* .header-search .logo{
+
+    } */
+    .header-search .logo img {
+        width: 169px;
+
+    }
+    .box-search {
+        display: flex;
+        align-items: center;
+        margin-left: 115px;
+
+    }
+    .box-search #searchbox { 
+        width: 652px;
+        height: 42px;
+        outline: none;
+        font-size: 13px;
+        font-family: inherit;
+        padding-left: 35px;
+        color: #666;
+    }
+    .box-search #search-icon
+    {
+        background: url(assets/img/search.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #0c0c0c;
+        background-position: center;
+        position: relative;
+        left: -45px;
+        font-size: 22px;
+
+    }
+    #search-icon::before
+    {
+        content: "0000";
+        visibility:hidden;
+    }
+    .fevrticon{
+        display: flex;
+        align-items: center;
+    
+
+    }
+    .icon{
+        color: white;
+        padding-left: 97px;
+        font-size: 25px;
+    }
+    .icon a {
+        margin: 6px;
+    }
+    .headermian {
+        background-color: white;
+    
+        box-shadow: 0 3px 5px rgba(0,0,0,.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headermian nav {
+        display: flex;
+        height: 50px;
+    }
+    .headermian nav ul {
+        display: flex;
+        align-items: center;
+    }
+    .headermian nav ul li {
+        list-style: none;
+        color: #666;
+    }
+    .headermian nav ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        color: inherit;
+        padding: 15px;
+    }
+
+    .headermian nav ul li a:hover {
+        background-color: #063f51;
+        color: white;
+    } 
+    footer {
+        height: 100%;
+        background-color:#eeeeee;
+
+    } 
+    .allblocks{
+        display: flex;
+        
+    }
+    .firstblock .list{
+        padding-left: 76px;
+padding-top: 76px;
+    }
+     .firstblock .list h4 {
+   color: #444449;
+margin-bottom: 15px;
+}
+.firstblock .list li{
+    margin-top: 13px;
+
+    list-style: none;
+}
+.firstblock .list li a {
+    text-decoration: none;
+  color: #a18897; 
+  font-family: 'Comfortaa';
+  font-size: 13px;
+
+
+}
+.secendblock  {
+    margin-left: 50px;
+}
+.secendblock  .list2{
+    padding-left: 76px;
+padding-top: 76px;
+}
+ .secendblock .list2 h4 {
+color: #444449;
+margin-bottom: 15px;
+}
+.secendblock .list2 li{
+margin-top: 13px;
+
+list-style: none;
+}
+.secendblock .list2 li a {
+text-decoration: none;
+color: #a18897; 
+font-family: 'Comfortaa';
+font-size: 13px;
+
+
+}
+
+.thrdblock  {
+    margin-left: 50px;
+}
+
+.thrdblock   .list3{
+    padding-left: 76px;
+padding-top: 76px;
+}
+ .thrdblock .list3 h4 {
+color: #444449;
+margin-bottom: 15px;
+}
+.thrdblock .list3 li{
+margin-top: 13px;
+
+list-style: none;
+}
+.thrdblock .list3 li a {
+text-decoration: none;
+color: #a18897; 
+font-family: 'Comfortaa';
+font-size: 13px;
+
+
+}
+.frthblock{
+    padding-bottom: 70px;
+    margin-left: 50px;
+}
+
+.frthblock .soical h4 {
+    color: #444449;
+    margin-bottom: 15px;
+    }
+.frthblock .soical{
+padding-left: 76px;
+padding-top: 76px;
+
+}
+
+.frthblock .soical li {
+    list-style: none;
+float: left;
+}
+.frthblock .soical li .fa {
+    
+    padding: 10px;
+
+    font-size:  25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.frthblock .soical li .fa:hover {
+    opacity: 0.7;
+}
+ 
+.frthblock .soical li .fa-facebook , .fa-pinterest ,  .fa-instagram {
+    background: #063f51;
+    color: white;
+  }
+  .frthblock .soical li .fa-facebook:hover , .fa-pinterest:hover ,  .fa-instagram:hover {
+    background: white;
+    color:#063f51;
+    transition: 2s;
+   
+  }
+ .frthblock .secre {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.frthblock .logofot {
+    
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.footerbotom {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-left: 75px;
+    display: flex;
+    border-top: 1px solid #e2e2e2;
+    background-color: #eeeeee;
+    
+}
+
+.footerbotom p {
+    font-size: 13px;
+    color: #a18897;
+}
+
+.allblocks ul li .fa {
+    margin-right: 6px;
+font-size: 12px;
+
+
+}
+.secendblock .list2 li span:hover , .thrdblock .list3 li span:hover , .firstblock .list li a span:hover {
+    color: #063f51;
+
+
+}

@@ -1,0 +1,6 @@
+CREATE TABLE form_data (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    message TEXT NOT NULL
+);
