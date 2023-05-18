@@ -179,6 +179,7 @@ body {
 
 footer {
 
+    width: 100%;
     height: 100%;
     background-color: #eeeeee;
 
@@ -731,7 +732,7 @@ margin-top: 13px;
 
 
     footer {
-
+width: 100%;
         height: 100%;
         background-color: #eeeeee;
     
@@ -1113,7 +1114,7 @@ padding: 1px 2x;
 
 
 footer {
-
+width: 100%;
     height: 100%;
     background-color: #eeeeee;
 
@@ -1498,6 +1499,8 @@ footer {
 
 
     footer {
+        
+width: 100%;
 
         height: 100%;
         background-color: #eeeeee;
@@ -1885,6 +1888,8 @@ footer {
     
 
     footer {
+        
+width: 100%;
 
         height: 100%;
         background-color: #eeeeee;
