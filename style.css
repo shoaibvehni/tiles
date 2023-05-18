@@ -557,17 +557,6 @@ margin-top: 13px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 575.98px) {
     .headsection {
         position: sticky;
@@ -738,8 +727,215 @@ margin-top: 13px;
         background-color: #063f51;
         color: white;
     }
+
+
+
+    footer {
+
+        height: 100%;
+        background-color: #eeeeee;
+    
+    }
+    
+    .allblocks {
+        display: grid;
+        grid-template-columns: auto auto;    
+    }
+    
+    .firstblock .list {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .firstblock .list h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .firstblock .list li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .firstblock .list li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 13px;
+    
+    
+    }
+    
+    .secendblock {
+        margin-left: 0px;
+    }
+    
+    .secendblock .list2 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .secendblock .list2 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .secendblock .list2 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .secendblock .list2 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .thrdblock {
+        margin-left: 0px;
+    }
+    
+    .thrdblock .list3 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .thrdblock .list3 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .thrdblock .list3 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .thrdblock .list3 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .frthblock {
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .frthblock .soical h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .frthblock .soical {
+        padding-left: 16px;
+        padding-top: 16px;
+    
+    }
+    
+    .frthblock .soical li {
+        list-style: none;
+        float: left;
+    }
+    
+    .frthblock .soical li .fa {
+    
+        padding: 10px;
+    
+        font-size: 20px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .frthblock .soical li .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .frthblock .soical li .fa-facebook,
+    .fa-pinterest,
+    .fa-instagram {
+        background: #063f51;
+        color: white;
+    }
+    
+    .frthblock .soical li .fa-facebook:hover,
+    .fa-pinterest:hover,
+    .fa-instagram:hover {
+        background: white;
+        color: #063f51;
+        transition: 2s;
+    
+    }
+    
+    .frthblock .secre {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    
+    .frthblock .logofot {
+    
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .footerbotom {
+        display: flex;
+    
+       align-items: center;
+       justify-content: center;
+        border-top: 1px solid #e2e2e2;
+        background-color: #eeeeee;
+    
+    }
+    
+    .footerbotom p {
+        font-size: 12px;
+        color: #a18897;
+    }
+    
+    .allblocks ul li .fa {
+        margin-right: 0px;
+        font-size: 12px;
+    
+    
+    }
+    
+    .secendblock .list2 li span:hover,
+    .thrdblock .list3 li span:hover,
+    .firstblock .list li a span:hover {
+        color: #063f51;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
         }
+
              
 
 
@@ -914,6 +1110,215 @@ padding: 1px 2x;
     color: white;
 }
 
+
+
+footer {
+
+    height: 100%;
+    background-color: #eeeeee;
+
+}
+
+.allblocks {
+    display: grid;
+    grid-template-columns: auto auto;    
+}
+
+.firstblock .list {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.firstblock .list h4 {
+    color: #444449;
+    margin-bottom: 5px;
+}
+
+.firstblock .list li {
+    margin-top: 3px;
+
+    list-style: none;
+}
+
+.firstblock .list li a {
+    text-decoration: none;
+    color: #a18897;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+
+
+}
+
+.secendblock {
+    margin-left: 0px;
+}
+
+.secendblock .list2 {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.secendblock .list2 h4 {
+    color: #444449;
+    margin-bottom: 5px;
+}
+
+.secendblock .list2 li {
+    margin-top: 3px;
+
+    list-style: none;
+}
+
+.secendblock .list2 li a {
+    text-decoration: none;
+    color: #a18897;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+
+
+}
+
+.thrdblock {
+    margin-left: 0px;
+}
+
+.thrdblock .list3 {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.thrdblock .list3 h4 {
+    color: #444449;
+    margin-bottom: 5px;
+}
+
+.thrdblock .list3 li {
+    margin-top: 3px;
+
+    list-style: none;
+}
+
+.thrdblock .list3 li a {
+    text-decoration: none;
+    color: #a18897;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+
+
+}
+
+.frthblock {
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+
+.frthblock .soical h4 {
+    color: #444449;
+    margin-bottom: 5px;
+}
+
+.frthblock .soical {
+    padding-left: 16px;
+    padding-top: 16px;
+
+}
+
+.frthblock .soical li {
+    list-style: none;
+    float: left;
+}
+
+.frthblock .soical li .fa {
+
+    padding: 10px;
+
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.frthblock .soical li .fa:hover {
+    opacity: 0.7;
+}
+
+.frthblock .soical li .fa-facebook,
+.fa-pinterest,
+.fa-instagram {
+    background: #063f51;
+    color: white;
+}
+
+.frthblock .soical li .fa-facebook:hover,
+.fa-pinterest:hover,
+.fa-instagram:hover {
+    background: white;
+    color: #063f51;
+    transition: 2s;
+
+}
+
+.frthblock .secre {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.frthblock .logofot {
+
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.footerbotom {
+    display: flex;
+
+   align-items: center;
+   justify-content: center;
+    border-top: 1px solid #e2e2e2;
+    background-color: #eeeeee;
+
+}
+
+.footerbotom p {
+    font-size: 12px;
+    color: #a18897;
+}
+
+.allblocks ul li .fa {
+    margin-right: 0px;
+    font-size: 12px;
+
+
+}
+
+.secendblock .list2 li span:hover,
+.thrdblock .list3 li span:hover,
+.firstblock .list li a span:hover {
+    color: #063f51;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
          
 
@@ -1087,6 +1492,219 @@ padding: 1px 2x;
         background-color: #063f51;
         color: white;
     }
+
+
+
+
+
+    footer {
+
+        height: 100%;
+        background-color: #eeeeee;
+    
+    }
+    
+    .allblocks {
+        display: grid;
+        grid-template-columns: auto auto;    
+    }
+    
+    .firstblock .list {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .firstblock .list h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .firstblock .list li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .firstblock .list li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 13px;
+    
+    
+    }
+    
+    .secendblock {
+        margin-left: 0px;
+    }
+    
+    .secendblock .list2 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .secendblock .list2 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .secendblock .list2 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .secendblock .list2 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .thrdblock {
+        margin-left: 0px;
+    }
+    
+    .thrdblock .list3 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .thrdblock .list3 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .thrdblock .list3 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .thrdblock .list3 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .frthblock {
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .frthblock .soical h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .frthblock .soical {
+        padding-left: 16px;
+        padding-top: 16px;
+    
+    }
+    
+    .frthblock .soical li {
+        list-style: none;
+        float: left;
+    }
+    
+    .frthblock .soical li .fa {
+    
+        padding: 10px;
+    
+        font-size: 20px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .frthblock .soical li .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .frthblock .soical li .fa-facebook,
+    .fa-pinterest,
+    .fa-instagram {
+        background: #063f51;
+        color: white;
+    }
+    
+    .frthblock .soical li .fa-facebook:hover,
+    .fa-pinterest:hover,
+    .fa-instagram:hover {
+        background: white;
+        color: #063f51;
+        transition: 2s;
+    
+    }
+    
+    .frthblock .secre {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    
+    .frthblock .logofot {
+    
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .footerbotom {
+        display: flex;
+    
+       align-items: center;
+       justify-content: center;
+        border-top: 1px solid #e2e2e2;
+        background-color: #eeeeee;
+    
+    }
+    
+    .footerbotom p {
+        font-size: 12px;
+        color: #a18897;
+    }
+    
+    .allblocks ul li .fa {
+        margin-right: 0px;
+        font-size: 12px;
+    
+    
+    }
+    
+    .secendblock .list2 li span:hover,
+    .thrdblock .list3 li span:hover,
+    .firstblock .list li a span:hover {
+        color: #063f51;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
         }
              
@@ -1264,6 +1882,206 @@ padding: 1px 2x;
         background-color: #063f51;
         color: white;
     }
+    
+
+    footer {
+
+        height: 100%;
+        background-color: #eeeeee;
+    
+    }
+    
+    .allblocks {
+        display: grid;
+        grid-template-columns: auto auto;    
+    }
+    
+    .firstblock .list {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .firstblock .list h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .firstblock .list li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .firstblock .list li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 13px;
+    
+    
+    }
+    
+    .secendblock {
+        margin-left: 0px;
+    }
+    
+    .secendblock .list2 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .secendblock .list2 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .secendblock .list2 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .secendblock .list2 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .thrdblock {
+        margin-left: 0px;
+    }
+    
+    .thrdblock .list3 {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    
+    .thrdblock .list3 h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .thrdblock .list3 li {
+        margin-top: 3px;
+    
+        list-style: none;
+    }
+    
+    .thrdblock .list3 li a {
+        text-decoration: none;
+        color: #a18897;
+        font-family: 'Comfortaa';
+        font-size: 12px;
+    
+    
+    }
+    
+    .frthblock {
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .frthblock .soical h4 {
+        color: #444449;
+        margin-bottom: 5px;
+    }
+    
+    .frthblock .soical {
+        padding-left: 16px;
+        padding-top: 16px;
+    
+    }
+    
+    .frthblock .soical li {
+        list-style: none;
+        float: left;
+    }
+    
+    .frthblock .soical li .fa {
+    
+        padding: 10px;
+    
+        font-size: 20px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .frthblock .soical li .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .frthblock .soical li .fa-facebook,
+    .fa-pinterest,
+    .fa-instagram {
+        background: #063f51;
+        color: white;
+    }
+    
+    .frthblock .soical li .fa-facebook:hover,
+    .fa-pinterest:hover,
+    .fa-instagram:hover {
+        background: white;
+        color: #063f51;
+        transition: 2s;
+    
+    }
+    
+    .frthblock .secre {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    
+    .frthblock .logofot {
+    
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .footerbotom {
+        display: flex;
+    
+       align-items: center;
+       justify-content: center;
+        border-top: 1px solid #e2e2e2;
+        background-color: #eeeeee;
+    
+    }
+    
+    .footerbotom p {
+        font-size: 12px;
+        color: #a18897;
+    }
+    
+    .allblocks ul li .fa {
+        margin-right: 0px;
+        font-size: 12px;
+    
+    
+    }
+    
+    .secendblock .list2 li span:hover,
+    .thrdblock .list3 li span:hover,
+    .firstblock .list li a span:hover {
+        color: #063f51;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+    
     
         }
              
