@@ -473,6 +473,9 @@ main .botombaner
     align-items: center;
     justify-content: center;
 }
+.botombaner img {
+    max-width: 430px;
+}
 main .bluhead 
 {
     margin-top: 200px;
@@ -572,6 +575,68 @@ margin-top: 13px;
 
 
 @media (max-width: 575.98px) {
+    
+.cards5 {
+    height: 100%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ 
+ .cards5 .carditem5{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.card5  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card5 img {
+    width: 200px;
+}
+.card5 .part51 {
+    font-size: 12px;
+    
+    padding-top: 14px;
+    margin-bottom: 14px;
+    color: black;
+}
+.card5 .part52 p {
+font-size: 12px;
+width: 200px;
+}
+.card5 .part53 {
+    margin-top: 13px;    
+}
+.card5 .part53  a{
+margin-top: 13px;
+    color: darkblue;
+    text-decoration: none;
+ font-size: 12px;
+}
+
+
+    
+.botombaner img {
+    max-width: 230px;
+}
+    
+main .botombaner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
     .headsection {
         position: sticky;
     
@@ -763,6 +828,8 @@ main .cards .carditem {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+overflow: scroll
+;
 }
 
 .card a    {
@@ -771,23 +838,6 @@ main .cards .carditem {
     font-size: 12px;
     box-sizing: border-box;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     color: #444444;
     text-decoration: none;
     font-family: 'Comfortaa';
@@ -808,7 +858,7 @@ overflow: auto;
 .banner img {
     margin: 0;
     padding: 0;
-    max-width: 150px;
+    width: 150px;
 }
 
 main .cards1 {
@@ -1086,6 +1136,57 @@ width: 100%;
 
     
 @media (max-width: 767.98px) { 
+    
+.cards5 {
+    height: 100%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ 
+ .cards5 .carditem5{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.card5  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+overflow: scroll;
+}
+.card5 img {
+    width: 200px;
+}
+.card5 .part51 {
+    font-size: 12px;
+    
+    padding-top: 14px;
+    margin-bottom: 14px;
+    color: black;
+}
+.card5 .part52 p {
+font-size: 12px;
+width: 200px;
+}
+.card5 .part53 {
+    margin-top: 13px;    
+}
+.card5 .part53  a{
+margin-top: 13px;
+    color: darkblue;
+    text-decoration: none;
+ font-size: 12px;
+}
+
     
 main .cards {
     height: 100%;
@@ -1585,6 +1686,56 @@ width: 100%;
 
 
 @media (max-width: 991.98px) {
+    
+.cards5 {
+    height: 100%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ 
+ .cards5 .carditem5{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.card5  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card5 img {
+    width: 200px;
+}
+.card5 .part51 {
+    font-size: 12px;
+    
+    padding-top: 14px;
+    margin-bottom: 14px;
+    color: black;
+}
+.card5 .part52 p {
+font-size: 12px;
+width: 200px;
+}
+.card5 .part53 {
+    margin-top: 13px;    
+}
+.card5 .part53  a{
+margin-top: 13px;
+    color: darkblue;
+    text-decoration: none;
+ font-size: 12px;
+}
+
     
 main .cards {
     height: 100%;
@@ -2092,7 +2243,58 @@ width: 100%;
 
    
 
+
 @media (max-width: 1199.98px) {
+    
+.cards5 {
+    height: 100%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ 
+ .cards5 .carditem5{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.card5  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card5 img {
+    width: 250px;
+}
+.card5 .part51 {
+    font-size: 12px;
+    
+    padding-top: 14px;
+    margin-bottom: 14px;
+    color: black;
+}
+.card5 .part52 p {
+font-size: 12px;
+width: 200px;
+}
+.card5 .part53 {
+    margin-top: 13px;    
+}
+.card5 .part53  a{
+margin-top: 13px;
+    color: darkblue;
+    text-decoration: none;
+ font-size: 12px;
+}
+
     
 main .cards {
     height: 100%;
