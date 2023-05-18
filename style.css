@@ -576,6 +576,36 @@ margin-top: 13px;
 
 @media (max-width: 575.98px) {
     
+main .bluhead p {
+    margin-bottom: 20PX;
+    font-size: 13px;
+    color: white;
+
+}
+.subcribe {
+    
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+main .bluhead button  {
+    background-color:  #053848;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30px;
+width: 140px;
+border: solid white 1px;
+
+}
+
+main .bluhead button a {
+   color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+    
 .cards5 {
     height: 100%;
     width: 100%;
@@ -1136,6 +1166,37 @@ width: 100%;
 
     
 @media (max-width: 767.98px) { 
+    
+main .bluhead p {
+    margin-bottom: 20PX;
+    font-size: 13px;
+    color: white;
+
+}
+.subcribe {
+    
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+main .bluhead button  {
+    background-color:  #053848;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30px;
+width: 140px;
+border: solid white 1px;
+
+}
+
+main .bluhead button a {
+   color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+    
     
 .cards5 {
     height: 100%;
