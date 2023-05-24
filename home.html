@@ -48,44 +48,91 @@
                 </div>
                 <div class="fevrticon">
                     <div class="icon">   
+                        
+                        <a href="#" id="toggleButton" i class="fa  fa-bars" aria-hidden="true"></a>
                         <a i class="fa fa-user-o" aria-hidden="true"></a>
-                        <a i class="fa fa-heart-o" aria-hidden="true"></a>
+
                         <a i class="fa fa-shopping-cart" aria-hidden="true"></a>
+                       <a i class="fa fa-heart" aria-hidden="true"></a>
                     </div>
                 </div>
             </div>
-            <div class="headermian">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">BATHROOM TILES</a>
-                        </li> <li>
-                            <a href="#">KITCHEN TILES</a>
-                        </li><li>
-                            <a href="#">PAVING TILES</a>
-                        </li>
-                        <li>
-                            <a href="#">NATURAL STONE TILES</a>
-                        </li><li>
-                            <a href="#">TILES BY STYLE</a>
-                        </li><li>
-                            <a href="#">MORE TILES</a>
-                        </li><li>
-                            <a href="#">FLEXING AND FINSHING </a>
-                        </li><li>
-                            <a href="#">SHOP THE LOCK</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
     </header>
-     
+    <div class="headermain">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">BATHROOM TILES</a>
+                </li>
+                <li>
+                    <a href="#">KITCHEN TILES</a>
+                </li>
+                <li>
+                    <a href="#">PAVING TILES</a>
+                </li>
+                <li>
+                    <a href="#">NATURAL STONE TILES</a>
+                </li>
+                <li>
+                    <a href="#">TILES BY STYLE</a>
+                </li>
+                <li>
+                    <a href="#">MORE TILES</a>
+                </li>
+                <li>
+                    <a href="#">FLEXING AND FINSHING</a>
+                </li>
+                <li>
+                    <a href="#">SHOP THE LOCK</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <script>
+        // Get the headermain element and the toggleButton element
+        const headermain = document.querySelector('.headermain');
+        const toggleButton = document.getElementById('toggleButton');
+    
+        // Add click event listener to the toggleButton
+        toggleButton.addEventListener('click', function() {
+            // Toggle the show class on the headermain element
+            headermain.classList.toggle('show');
+        });
+    </script>
+    
+    <div class="headermian">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">BATHROOM TILES</a>
+                </li> <li>
+                    <a href="#">KITCHEN TILES</a>
+                </li><li>
+                    <a href="#">PAVING TILES</a>
+                </li>
+                <li>
+                    <a href="#">NATURAL STONE TILES</a>
+                </li><li>
+                    <a href="#">TILES BY STYLE</a>
+                </li><li>
+                    <a href="#">MORE TILES</a>
+                </li><li>
+                    <a href="#">FLEXING AND FINSHING </a>
+                </li><li>
+                    <a href="#">SHOP THE LOCK</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
 <main>
 
 
 
-    <body>
+
+<!--    <body>
      
 
 <div class="cards">
@@ -274,8 +321,82 @@
 <button> <a href="" >SUBCRIBE</a> </button></div>
 </div></main>
 </body> 
+ -->
+ 
 
     <footer>
+         <div class="respons">
+
+            <div class="ac" id="categories-toggle">
+                <i id="ok" class="fa fa-arrow-down" aria-hidden="true"></i>
+  <a href="#">POPULAR CATEGORIES</a>  
+  <i id="notok" class="fa fa-arrow-down" aria-hidden="true"></i></div>
+<ul id="categories-list" style="display: none;">
+  <li><a href="#"><span>Bathroom Tiles</span></a></li>
+  <li><a href="#"><span>Kitchen Tiles</span></a></li>
+  <li><a href="#"><span>Floor Tiles</span></a></li>
+  <li><a href="#"><span>Wall Tiles</span></a></li>
+  <li><a href="#"><span>Paving Slabs</span></a></li>
+<li><a href="#"><span>Mosaic Tiles</span></a></li>
+<li><a href="#"><span>Porcelain Tiles</span></a></li>
+<li><a href="#"> <span>Ceramic Tiles</span></a></li>
+</ul>
+
+<script>
+  document.getElementById("categories-toggle").addEventListener("click", function() {
+    var categoriesList = document.getElementById("categories-list");
+    categoriesList.style.display = (categoriesList.style.display === "none") ? "block" : "none";
+  });
+</script>
+
+<div class="ac">     
+    <i id="ok" class="fa fa-arrow-down" aria-hidden="true"></i>
+<a href="#" id="INFO">INFORMATION</a>
+
+<i id="notok" class="fa fa-arrow-down" aria-hidden="true"></i></div>
+<ul id="infot" style="display: none;">
+  <li><a href="#"><span>Bathroom Tiles</span></a></li>
+  <li><a href="#"><span>Kitchen Tiles</span></a></li>
+  <li><a href="#"><span>Floor Tiles</span></a></li>
+  <li><a href="#"><span>Wall Tiles</span></a></li>
+  <li><a href="#"><span>Paving Slabs</span></a></li>
+  <li><a href="#"><span>Mosaic Tiles</span></a></li>
+  <li><a href="#"><span>Porcelain Tiles</span></a></li>
+  <li><a href="#"><span>Ceramic Tiles</span></a></li>
+</ul>
+
+<script>
+  document.getElementById("INFO").addEventListener("click", function() {
+    var categoriesList = document.getElementById("infot");
+    categoriesList.style.display = (categoriesList.style.display === "none") ? "block" : "none";
+  });
+</script>
+<div class="ac">
+    <i id="ok" class="fa fa-arrow-down" aria-hidden="true"></i><a href="#" id="CUSTOMER">CUSTOMER SERVICE</a>
+
+    <i id="notok" class="fa fa-arrow-down" aria-hidden="true"></i></div>
+
+<ul id="infoC" style="display: none;">
+  <li><a href="#"><span>Bathroom Tiles</span></a></li>
+  <li><a href="#"><span>Kitchen Tiles</span></a></li>
+  <li><a href="#"><span>Floor Tiles</span></a></li>
+  <li><a href="#"><span>Wall Tiles</span></a></li>
+  <li><a href="#"><span>Paving Slabs</span></a></li>
+  <li><a href="#"><span>Mosaic Tiles</span></a></li>
+  <li><a href="#"><span>Porcelain Tiles</span></a></li>
+  <li><a href="#"><span>Ceramic Tiles</span></a></li>
+</ul>
+
+<script>
+  document.getElementById("CUSTOMER").addEventListener("click", function() {
+    var categoriesList = document.getElementById("infoC");
+    categoriesList.style.display = (categoriesList.style.display === "none") ? "block" : "none";
+  });
+</script>
+
+
+         </div>
+
         <div class="allblocks">
         <div class="firstblock">
             
@@ -287,17 +408,17 @@
                 <li><a href=""><span>Floor Tiles</span></a> </li>
                 <li><a href=""><span>Wall Tiles</span>
                     </a> </li>
-                <li><a href=""><span>
+                <li><a href="#"><span>
                     Paving Slabs</span>
                     </a> </li>
-                <li><a href=""><span>
+                <li><a href="#"><span>
                     Mosaic Tiles</span>
                 </a> </li>
-                <li><a href=""><span>
+                <li><a href="#"><span>
                     Porcelain Tiles</span>
                     </a> </li>
         
-                <li><a href=""> <span>Ceramic Tiles</span></a> </li>
+                <li><a href="#"> <span>Ceramic Tiles</span></a> </li>
             </ul>
         </div>
         <div class="secendblock">
@@ -379,6 +500,6 @@
     <div class="footerbotom">
         <p>Copyright © 2023 Tiles DIY. All rights reserved.</p>
     </div>
-</footer> 
+</footer>  
 
 </html>
