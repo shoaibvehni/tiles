@@ -81,9 +81,16 @@ color: white;
 
 }
 
+
 }
 
 @media (max-width: 1326px) {
+    
+   
+    main .cards .carditem  img{
+        width: 100%;
+
+    }
   .fevrticon .icon {
     padding-left: 42px;
     font-size: 18px;
@@ -92,7 +99,11 @@ color: white;
 }
 
 @media (min-width: 1090px) {
+    .card a {
+
+        font-size: 18px;
     
+    }
   
 .fa-bars , .respons {
     position: absolute;
@@ -475,7 +486,19 @@ main .cards .carditem {
 
 }
 
-.card a    {
+ .card a    {
+    background-color: white;
+    font-weight: bold;
+
+    box-sizing: border-box;
+    color: #444444;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    display: inline-block;
+    padding: 7% 7%;
+    position: relative;
+    top: -11%;
+    left: 8%;/*
     background-color: white;
     font-weight: bold;
     font-size: 18px;
@@ -487,7 +510,7 @@ main .cards .carditem {
     padding : 50px 40px 30px 40px ; 
 position: relative;
 top: -72px;
-left: 10%;
+left: 10%; */
 }
 
 main .banner {
@@ -649,6 +672,7 @@ margin-top: 13px;
  font-size: 16px;
 }
 @media (max-width: 1090px) {
+    
     
 
     .respons li {
@@ -853,6 +877,12 @@ padding-left: 5px;
     }
     
     @media (max-width: 830px) {
+        .card a {
+
+            font-size: 12px;
+        
+        }
+      
         .respons li {
             text-align: center;
             list-style: none;
@@ -931,6 +961,22 @@ color: #0c0c0c;
 
     }
 
+
+    @media (max-width: 714px) {
+    
+    
+        main .cards .carditem {
+            margin: 80px 60px 90px 40px;
+            display: grid;
+            grid-template-columns:  auto auto;
+            grid-column-gap: 50px;
+            grid-row-gap: 20px;
+            -ms-grid-colums-align: center;
+        }
+    
+    
+    
+    }
     
     @media (max-width: 600px) {
         .header-top .header-top-left {
@@ -964,6 +1010,17 @@ position: absolute;
         }
     
         @media (max-width: 480px) {
+            
+  
+            
+        main .cards .carditem {
+            margin: 80px 60px 90px 40px;
+            display: grid;
+            grid-template-columns:   auto;
+            grid-column-gap: 50px;
+            grid-row-gap: 20px;
+            -ms-grid-colums-align: center;
+        }
          
 .header-search .logo{
     width: 20%;
