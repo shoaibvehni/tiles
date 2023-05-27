@@ -518,6 +518,9 @@ main .banner {
     flex-direction: row;
     justify-content: center;
 }
+main .banner img {
+    width: 100%;
+}
 
 main .cards1 {
     margin-bottom: 40px;
@@ -532,54 +535,58 @@ main .cards1 .heading {
     justify-content: center;
     padding: 34px 0px 34px 0px;
     font-size: 25px;
-    box-shadow: 0 1.5px 2.5px rgba(0,0,0,.1);
+    box-shadow: 0 1.5px m2.5px rgba(0,0,0,.1);
     
 }
 main .cards1 .carditem1 {
-
-    position: relative;
-    right: 50px;
-           padding-bottom: 40px;
-      padding-top: 19px;
     display: grid;
     grid-template-columns: auto  auto auto;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    padding-left: 100px;
- 
-}
+justify-content: center;
 
-main .cards1 .carditem1 .card1 img  {
-    max-width:  250px;
-    height: 200px;
 }
 
 main .cards1 .carditem1 .card1 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+main .cards1 .carditem1 .card1 img  {
+    width:  140px ;
+    height: 180px;
+margin: 10%;
+padding: 0;
 }
 
 main .cards1 .carditem1 .card1 .span {
-    margin-top: 20px;
-    margin-left: 10px;
-
-    display: flex;
+    width: 60%;
+    margin: 16%;
+    display: block;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
 main .cards1 .carditem1 .card1 a {
+ margin-top: 21%;
+
     display: inline-flex;
     justify-content: center;
-    margin-top: 100px;
     text-decoration: none;
     color: #336271;
-    font-size: 15px;
-    padding: 12px  0px 12px 0px ;
+    font-size: 14px;
+    padding: 5% ;
     background-color: white;
-
-
 }
+main .cards1 .carditem1 .card1 a:hover {
+    background-color: #1f3767;
+    color: white;
+} 
 main .botombaner
 {
     display: flex;
@@ -587,7 +594,7 @@ main .botombaner
     justify-content: center;
 }
 .botombaner img {
-    max-width: 430px;
+    width: 80%;
 }
 main .bluhead 
 {
@@ -634,22 +641,28 @@ main .bluhead button a {
     text-decoration: none;
 }
 .cards5 {
+    margin-top: 5%;
     height: 100%;
     width: 100%;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 
 }
+#post p{
+font-weight: bolder;
+    color: #0c0c0c;
+    font-size: 25px;
+}
 
- 
  .cards5 .carditem5{
-
+margin-top: 5%;
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 30px;
-    grid-row-gap:30px;
-
+    grid-column-gap: 2%;
+    grid-row-gap:5%;
+margin-bottom: 5%;
 }
 .card5  {
     display: flex;
@@ -657,12 +670,20 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+.part52 {
+    
+    width: 75%;
+}
 .card5 .part51 {
+    
+    width: 55%;
     padding-top: 14px;
     margin-bottom: 14px;
     color: black;
 }
 .card5 .part53 {
+    
+    width: 25%;
     margin-top: 13px;    
 }
 .card5 .part53  a{
@@ -671,7 +692,72 @@ margin-top: 13px;
     text-decoration: none;
  font-size: 16px;
 }
+.card5 img {
+    width: 85%;
+}
 @media (max-width: 1090px) {
+    
+    #post p{
+    font-weight: bolder;
+        color: #0c0c0c;
+        font-size: 15px;
+    }
+    
+     .cards5 .carditem5{
+    margin-top: 5%;
+        display: grid;
+        grid-template-columns:  auto;
+        grid-column-gap: 2%;
+        grid-row-gap:5%;
+    margin-bottom: 5%;
+    }
+    
+main .cards1 .carditem1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+justify-content: center;
+
+}
+
+main .cards1 .carditem1 .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+main .cards1 .carditem1 .card1 img  {
+    width:  100% ;
+    height: 40vw;
+margin: 0;
+padding: 0;
+}
+
+main .cards1 .carditem1 .card1 .span {
+    width: 100%;
+    margin: 6%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main .cards1 .carditem1 .card1 a {
+ width: 80%;
+
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #336271;
+    font-size: 14px;
+    padding: 5% ;
+    background-color: white;
+}
     
     
 
@@ -963,7 +1049,20 @@ color: #0c0c0c;
 
 
     @media (max-width: 714px) {
-    
+         
+main .cards1 .carditem1 {
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-column-gap: 10px;
+justify-content: center;
+
+}
+
+        main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
     
         main .cards .carditem {
             margin: 80px 60px 90px 40px;
